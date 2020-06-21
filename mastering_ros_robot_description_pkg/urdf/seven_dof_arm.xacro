@@ -565,10 +565,9 @@ This link is the base of the arm in which arm is placed
 
   <!-- Define arm with gripper mounted on a base -->
   <!--
-
-  <xacro:base name="base" />
-  <xacro:arm name="arm" parent="base"/>
-  <xacro:gripper2 name="gripper2" parent="tool"/>
+  <xacro:base name="base"/>
+  <xacro:arm parent="base"/>
+  <xacro:gripper parent="tool"/>
 -->
 
   <!-- Define RGB-D sensor -->
